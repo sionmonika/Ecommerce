@@ -5,6 +5,7 @@ export default {
     props: {
         promotion: Object,
         shopNow: Function,
+        buttonColor: String
     }
 }
 
@@ -12,7 +13,7 @@ export default {
 
 <template>
  
-    <button @click="shopNow(promotion)" class="Btn">Shop Now
+    <button @click="shopNow(promotion)" class="Btn" :style="{backgroundColor: buttonColor}">Shop Now
         <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_4059_3)">
                 <path

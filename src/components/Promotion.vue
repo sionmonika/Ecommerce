@@ -1,10 +1,10 @@
 <template>
-    <article class="each_promotion">
-        <div class="content">
+    <article class="each_promotion" :style="{ backgroundColor: bgColor}">
+        <div class="content" >
             <h3>{{ content }}</h3>
-            <Button_Component :shopNow="shopnow" :promotion="{ content }" />
+            <Button_Component :shopNow="shopnow" :promotion="{ content }" :buttonColor="btnColor" />
         </div>
-        <img :src="Image" alt="Promotion Image" />
+        <img :src="imageSrc" alt="Promotion Image" />
     </article>
 </template>
 
@@ -16,7 +16,9 @@ export default {
 
     props: {
         content: String,
-        Image: String,
+        imageSrc: String,
+        bgColor: String,
+        btnColor: String
     },
 
     components: {

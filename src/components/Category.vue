@@ -2,16 +2,19 @@
 export default {
     name : "Category",
     props: {
-        image: {
+        imageSrc: {
             type: String, 
         },
         title: {
             type: String,
         },
-        quantity: {
+        items: {
             type: Number,
           
         },
+        bgColor: {
+            type: String,
+        }
     },
 
 }
@@ -20,13 +23,13 @@ export default {
 
 <template>
     
-    <article class="each_category">
-        <img :src="image" alt="image">
+    <article class="each_category" :style="{ backgroundColor: bgColor}">
+        <img :src="imageSrc" alt="image">
 
         <h4 class="title_product">
             {{ title }}
         </h4>
-        <span>{{ quantity }} Items</span>
+        <span>{{ items }} Items</span>
     </article>
 
 

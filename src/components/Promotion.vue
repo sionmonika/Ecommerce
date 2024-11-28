@@ -4,7 +4,8 @@
             <h3>{{ content }}</h3>
             <Button_Component :shopNow="shopnow" :promotion="{ content }" :buttonColor="btnColor" />
         </div>
-        <img :src="imageSrc" alt="Promotion Image" />
+         
+        <img :src= "`http://localhost:3000/`+ imageSrc" alt="Promotion image">
     </article>
 </template>
 

@@ -24,8 +24,7 @@ export default {
 <template>
     
     <article class="each_category" :style="{ backgroundColor: bgColor}">
-        <img :src="imageSrc" alt="image">
-
+        <img :src= "`http://localhost:3000/`+ imageSrc" alt="image">
         <h4 class="title_product">
             {{ title }}
         </h4>

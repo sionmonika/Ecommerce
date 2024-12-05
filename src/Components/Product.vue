@@ -159,7 +159,7 @@ export default {
   flex-direction: column;
   align-items: center;
   border: 1px solid green;
-  width: 15rem;
+  width: 15.9rem;
   height: auto;
   border-radius: 1rem;
   overflow: hidden;

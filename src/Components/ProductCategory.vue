@@ -54,7 +54,7 @@
     color: gray;
   }
   .product-image {
-    width: 4.5rem;
+    width: 5rem;
     height: 4.5rem;
     margin: 0.1rem;
   }

@@ -55,7 +55,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 28rem;
+    width: 25rem;
     height: 18rem;
     padding: 10px;
     background-color: #f9f9f9;

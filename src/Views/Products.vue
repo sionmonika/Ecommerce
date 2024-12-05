@@ -24,7 +24,7 @@
 
 <script>
 import Menu from "@/Components/Menu.vue";
-import Product from "./Components/Product.vue";
+import Product from "@/Components/Product.vue";
 import { useProductStore } from "@/stores/product";
 import { mapState } from "pinia";
 

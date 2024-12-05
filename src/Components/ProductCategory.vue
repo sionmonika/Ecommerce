@@ -42,7 +42,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 7.2rem;
+    width: 6rem;
     padding: 0.5rem;
     background-color: #f0f2f5;
     border-radius: 1rem;

@@ -154,12 +154,12 @@ export default {
   text-align: center;
 }
 .card {
-  /* display: flex;
+  display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center; */
+  align-items: center;
   border: 1px solid green;
-  width: 18.2rem;
+  width: 15rem;
   height: auto;
   border-radius: 1rem;
   overflow: hidden;
